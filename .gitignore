@@ -7,7 +7,7 @@
 */target/**
 
 # structure
-/ad-service/ad-base/src/main/java/com/hxl/ad/domain/
+/ad-service/ad-base/src/main/java/com/hxl/ad/domain
 
 # passwrod
 /ad-service/ad-sponsor/src/main/resources/application.yml
