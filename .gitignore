@@ -4,3 +4,9 @@
 
 # java
 target/
+
+# structure
+ad-service/ad-base/com/hxl/ad/domain/
+
+# passwrod
+ad-service/ad-sponsor/src/main/resources/application.yml
