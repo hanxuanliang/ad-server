@@ -1,12 +1,13 @@
 # idea
 .idea/
 *.iml
+**/*.iml
 
 # java
-target/
+*/target/**
 
 # structure
-ad-service/ad-base/com/hxl/ad/domain/
+/ad-service/ad-base/src/main/java/com/hxl/ad/domain
 
 # passwrod
-ad-service/ad-sponsor/src/main/resources/application.yml
+/ad-service/ad-sponsor/src/main/resources/application.yml
