@@ -1,7 +1,7 @@
 package com.hxl.ad.client;
 
-import com.hxl.ad.client.vo.AdPlan;
 import com.hxl.ad.client.vo.AdPlanGetRequest;
+import com.hxl.ad.domain.AdPlan;
 import com.hxl.ad.vo.CommonResponse;
 import org.springframework.stereotype.Component;
 

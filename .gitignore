@@ -6,8 +6,14 @@
 # java
 */target/**
 
-# structure
-/ad-service/ad-base/src/main/java/com/hxl/ad/domain
+# code structure
+/ad-service/ad-base/src/main/java/com/hxl/ad/domain/AdCreative.java
+/ad-service/ad-base/src/main/java/com/hxl/ad/domain/AdCreativeUnit.java
+/ad-service/ad-base/src/main/java/com/hxl/ad/domain/AdUnit.java
+/ad-service/ad-base/src/main/java/com/hxl/ad/domain/AdUnitDistrict.java
+/ad-service/ad-base/src/main/java/com/hxl/ad/domain/AdUnitIt.java
+/ad-service/ad-base/src/main/java/com/hxl/ad/domain/AdUnitKeyword.java
 
 # passwrod
 /ad-service/ad-sponsor/src/main/resources/application.yml
+/ad-service/ad-search/src/main/resources/application.yml

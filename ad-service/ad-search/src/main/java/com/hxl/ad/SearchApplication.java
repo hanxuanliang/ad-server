@@ -30,5 +30,6 @@ public class SearchApplication {
 
     @Bean
     @LoadBalanced
+    // 基于 Ribbon 实现微服务调用
     public RestTemplate restTemplate() { return new RestTemplate(); }
 }

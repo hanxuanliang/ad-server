@@ -1,7 +1,7 @@
 package com.hxl.ad.client;
 
-import com.hxl.ad.client.vo.AdPlan;
 import com.hxl.ad.client.vo.AdPlanGetRequest;
+import com.hxl.ad.domain.AdPlan;
 import com.hxl.ad.vo.CommonResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,6 +18,6 @@ import java.util.List;
 @FeignClient(value = "eureka-client-ad-sponsor", fallback = SponsorClientHystrix.class)
 public interface SponsorClient {
 
-    @RequestMapping(value = "/sponsor/get/adPlan", method = RequestMethod.POST)
+    @RequestMapping(value = "/sponsor/get/plan", method = RequestMethod.POST)
     CommonResponse<List<AdPlan>> getAdPlans(@RequestBody AdPlanGetRequest request);
 }

@@ -1,22 +1,20 @@
-package com.hxl.ad.client.vo;
+package com.hxl.ad.index.keyword;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 /**
  * @Description:
  * @Author: hanxuanliang
- * @Date: 2020/2/21 18:39
+ * @Date: 2020/2/24 20:06
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class AdPlanGetRequest {
+public class UnitKeywordObject {
 
-    private Long userId;
-
-    private List<Long> ids;
+    private Long unitId;
+    private String keyword;
 }
+
