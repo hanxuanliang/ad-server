@@ -1,7 +1,7 @@
 package com.hxl.ad.client;
 
 import com.hxl.ad.client.vo.AdPlanGetRequest;
-import com.hxl.ad.domain.AdPlan;
+import com.hxl.ad.dump.table.AdPlanTable;
 import com.hxl.ad.vo.CommonResponse;
 import org.springframework.stereotype.Component;
 
@@ -16,7 +16,7 @@ import java.util.List;
 public class SponsorClientHystrix implements SponsorClient {
 
     @Override
-    public CommonResponse<List<AdPlan>> getAdPlans(AdPlanGetRequest request) {
+    public CommonResponse<List<AdPlanTable>> getAdPlans(AdPlanGetRequest request) {
         return new CommonResponse<>(-1, "eureka-client-ad-sponsor error");
     }
 }

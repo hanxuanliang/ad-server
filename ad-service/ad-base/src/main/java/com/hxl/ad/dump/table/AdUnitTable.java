@@ -1,4 +1,4 @@
-package com.hxl.ad.domain;
+package com.hxl.ad.dump.table;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,17 +7,18 @@ import lombok.NoArgsConstructor;
 /**
  * @Description:
  * @Author: hanxuanliang
- * @Date: 2020/2/21 13:10
+ * @Date: 2020/2/21 13:12
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class AdUnitDistrict {
+public class AdUnitTable {
 
     private Long unitId;
 
-    private String province;
+    private Integer unitStatus;
 
-    private String city;
+    private Integer positionType;
 
+    private Long planId;
 }

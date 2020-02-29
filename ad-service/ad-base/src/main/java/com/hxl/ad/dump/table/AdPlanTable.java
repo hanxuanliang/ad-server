@@ -1,4 +1,4 @@
-package com.hxl.ad.domain;
+package com.hxl.ad.dump.table;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,22 +14,15 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class AdPlan {
+public class AdPlanTable {
 
     private Long id;
 
     private Long userId;
-
-    private String planName;
 
     private Integer planStatus;
 
     private Date startDate;
 
     private Date endDate;
-
-    private Date createTime;
-
-    private Date updateTime;
-
 }

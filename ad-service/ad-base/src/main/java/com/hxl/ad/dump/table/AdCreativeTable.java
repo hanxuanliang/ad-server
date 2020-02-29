@@ -1,4 +1,4 @@
-package com.hxl.ad.domain;
+package com.hxl.ad.dump.table;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class AdCreative {
+public class AdCreativeTable {
 
     private Long adId;
 

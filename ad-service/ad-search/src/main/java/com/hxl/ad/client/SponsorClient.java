@@ -1,7 +1,7 @@
 package com.hxl.ad.client;
 
 import com.hxl.ad.client.vo.AdPlanGetRequest;
-import com.hxl.ad.domain.AdPlan;
+import com.hxl.ad.dump.table.AdPlanTable;
 import com.hxl.ad.vo.CommonResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,5 +19,5 @@ import java.util.List;
 public interface SponsorClient {
 
     @RequestMapping(value = "/sponsor/get/plan", method = RequestMethod.POST)
-    CommonResponse<List<AdPlan>> getAdPlans(@RequestBody AdPlanGetRequest request);
+    CommonResponse<List<AdPlanTable>> getAdPlans(@RequestBody AdPlanGetRequest request);
 }
