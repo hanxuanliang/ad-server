@@ -10,3 +10,6 @@
 /ad-service/ad-sponsor/src/main/resources/application.yml
 /ad-service/ad-sponsor/src/test/resources/application.yml
 /ad-service/ad-search/src/main/resources/application.yml
+
+# structure
+/ad-service/ad-search/src/main/java/com/hxl/ad/service/BinlogService.java
